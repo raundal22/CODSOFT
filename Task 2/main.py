@@ -57,12 +57,13 @@ def button_clicked(value):
 
 
 main_window = tk.Tk()
-main_window.title("Calculator")
+main_window.title("Calculator!!")
 main_window.minsize(width=WIDTH, height=HEIGHT)
 main_window.maxsize(width=WIDTH, height=HEIGHT)
+main_window.config(padx=20, pady=20, background="black")
 
 result_canvas = tk.Canvas(master=main_window,
-                          background="black",
+                          background="red",
                           width=WIDTH,
                           height=150)
 result_canvas.pack(fill="both")
