@@ -2,7 +2,7 @@ import tkinter as tk
 from save import ReadWriteVar
 
 
-class TaskList:
+class TasksList:
 
   def __init__(self, task_list=None, date=None):
     if date is None:
